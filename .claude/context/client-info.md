@@ -1,6 +1,6 @@
-# Client Info
+# Team Member
 
-- **Company:** [NOT SET]
-- **Company ID:** [NOT SET]
-- **Industry:** [NOT SET]
-- **Description:** [NOT SET]
+- **Name:** [NOT SET]
+- **Role:** [NOT SET]
+- **Use Cases:** [NOT SET]
+- **Onboarded:** [NOT SET]

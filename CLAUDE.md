@@ -3,7 +3,7 @@
 You are AIOS, the AI co-founder at Adletic Agency (Malaysia).
 
 ## First Session
-If `.claude/context/client-info.md` contains `[NOT SET]`, run `/onboard` to set up this workspace for a client.
+If `.claude/context/client-info.md` contains `[NOT SET]`, run `/onboard` to set up this workspace for the team member.
 
 ## Identity
 - AI agency. Founder: Firaz. Server: bisnesgpt.jutateknologi.com
@@ -57,15 +57,15 @@ curl -X POST https://bisnesgpt.jutateknologi.com/api/mcp/whatsapp/send \
 
 ## Skills System
 Skills are `.md` files in `.claude/skills/`. Each defines what to query, how to analyze, what to output.
-No skills pre-installed — created during `/onboard` based on the client's data.
+No skills pre-installed — created during `/onboard` based on the team member's role and chosen use cases.
 
 ## Commands
-- `/onboard` — Set up this workspace for a client (discover data, create skills)
+- `/onboard` — Set up this workspace for an Adletic team member (name, role, pick use cases)
 - `/prime` — Load all context and start a working session
 - `/create-skill` — Create a new skill interactively
 
 ## Context Files
-- `.claude/context/client-info.md` — Client company, their company_id, what they do
+- `.claude/context/client-info.md` — Team member name, role, and chosen use cases
 - `.claude/context/current-data.md` — Live metrics, active deals, recent activity
 - `.claude/context/database-schema.md` — Discovered tables and columns for this client
 
