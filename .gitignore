@@ -1,0 +1,31 @@
+# Secrets & local config
+.env
+.env.local
+.env.*.local
+
+# Claude Code local settings (allow lists, hooks, hostname-specific stuff)
+.claude/settings.local.json
+.claude/launch.json
+
+# Generated outputs (per-user, not source code)
+outputs/*
+!outputs/.gitkeep
+
+# User-uploaded files (keep the dir, not the files)
+files/*
+!files/.gitkeep
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

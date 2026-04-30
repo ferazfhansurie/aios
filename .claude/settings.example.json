@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "_comment": "Copy this to settings.local.json and add your own permissions / hooks. settings.local.json is gitignored.",
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(npm install)",
+      "Bash(npm run *)",
+      "Read(./**)",
+      "Write(./outputs/**)",
+      "Write(./.claude/context/**)"
+    ]
+  }
+}
